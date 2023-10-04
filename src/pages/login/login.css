@@ -1,0 +1,46 @@
+.lContainer {
+    height: 100vh;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lContainer h1 {
+    padding: 50px;
+  }
+  
+  .lContainer>input::placeholder{
+    color: black;
+  }
+  .lContainer>input {
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 15px;
+    border: 1px solid black;
+    outline: none;
+    background: transparent;
+    margin: 5px;
+    color: black;
+  }
+  
+  
+  .lContainer>button {
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(32, 36, 69);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .lContainer>button:hover {
+   transition: 0.5s;
+   background-color: black;
+  }
+  .error{
+    color: red;
+  }

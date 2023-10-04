@@ -1,0 +1,156 @@
+.hotelContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.hotel{
+    width: 80%; 
+    position: relative;   
+}
+.bookNowTop{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(32, 36, 69);
+    border-radius: 10px;
+}
+.bookNowTop:hover{
+   transition: 0.5s;
+    background-color: black;
+}
+.hAddress{
+    display: flex;
+    margin: 10px 0;
+}
+.hPara{
+    color:  rgb(32, 36, 69);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.hTitle{
+    margin: 20px 0;
+}
+
+
+
+.hotelImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hotelImage{
+    width: 33%;
+    cursor: pointer;
+
+}
+
+.hotelImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hotelDetails{
+    display: flex;
+    padding: 30px 0;
+}
+.hotelDetailText{
+    width: 70%;
+    padding-right: 50px;
+}
+.hotelDetailText>h1{
+    margin-bottom: 10px;
+}
+
+.hotelDetailPrice{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(32, 36, 69, 0.1);
+    padding: 3%;
+    position: relative;
+    border-radius: 20px;
+}
+.hotelDetailPrice>h1{
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+.hotelDetailPrice>h2{
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.bookNow{
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(32, 36, 69);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.bookNow:hover{
+   transition: 0.5s;
+    background-color: black;
+}
+
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgb(32, 36, 69, 0.2);
+}
+.sliderImgs{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+.sliderImgs img{
+    width: 80%;
+    height: 90vh;
+    object-fit: contain;
+}
+
+.cross{
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgb(32, 36, 69);
+    color: white;
+    border-radius: 10px;
+}
+
+.arrowLeft{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 2rem;
+    color: rgb(32, 36, 69);
+    cursor: pointer;
+}
+.arrowRight{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 2rem;
+    color: rgb(32, 36, 69);
+    cursor: pointer;
+}

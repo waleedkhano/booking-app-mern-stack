@@ -1,0 +1,65 @@
+.bg-img{
+    background-image: url("../../assets/bg.jpg");
+    opacity: 0.7;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    z-index: -1;
+}
+.navbarContainer{
+    padding: 2% 8%;
+    background-color: rgba(7, 7, 7, 0.3);
+    width: 100%;
+    height: 70vh;
+}
+.listImg{
+    height: 50vh;
+}
+
+.navbarContainer h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+.listImg h1{
+    font-size: 2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo>a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none ; 
+}
+
+a>span{
+    color:rgb(32, 36, 69);
+}
+.navButton button{
+    margin-right: 20px;
+    width: 10vw;
+    color: white;
+    background-color: rgb(32, 36, 69, 0.2);
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  .navButton button:last-child {
+    background-color: rgb(32, 36, 69);
+  }
+
+  .navButton button:hover{
+    transition: 0.5s;
+    background-color: black;
+
+  }

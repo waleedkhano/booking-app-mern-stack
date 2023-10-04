@@ -1,0 +1,55 @@
+.featureProperty{
+    display: flex;
+    justify-content: center;
+}
+.featurePropertyContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 4%;
+    overflow: hidden;
+    
+}
+.fp{
+    flex: 0 0 20%;
+    height: 300px;
+    margin-right: 1.2%; 
+    cursor: pointer;
+}
+.fp img{
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+}
+.fpSpan{
+    display: flex;
+    flex-direction: column;
+}
+.fpSpan>span{
+    display: flex;
+    flex-direction: column;
+    margin: 1px 10px;
+    color: black;
+}
+.fpRating{
+    display: flex;
+    margin: 1px 10px;
+}
+.fpRating>button{
+    background-color: rgb(32, 36, 69);
+    color: white;
+    border: none;
+    width: 30px;
+    font-weight: bold;
+}
+.fpRating>span{
+    font-size: 0.9rem;
+}
+.fpName{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.fpPrice{
+    font-weight:bold;
+}

@@ -16,6 +16,8 @@
     height: 200px;
     margin-right: 1.2%; 
     cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
 }
 .listItem img{
     width: 100%;
@@ -23,6 +25,7 @@
     background-size: cover;
     border-radius: 20px;
 }
+
 
 .propertyListContent{
     padding-left: 20px;

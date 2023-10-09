@@ -1,15 +1,19 @@
 import "./propertyList.css";
-import bg from "../../assets/bg.jpg";
+import apartment from "../../assets/fontPage/apartmenr.jpg";
+import cabins from "../../assets/fontPage/cabins.jpg";
+import hotel from "../../assets/fontPage/hotel.jpg";
+import resort from "../../assets/fontPage/resort.jpg";
+import villas from "../../assets/fontPage/villas.jpg";
 import useFetch from "../../hooks/useFetch"
 
 const PropertyList = () =>{
     const {data, loading, error} = useFetch("http://localhost:5000/hotels/countByType")
     const images = [
-        bg,
-        bg,
-        bg,
-        bg,
-        bg,
+        hotel,
+        apartment,
+        resort,
+        villas,
+        cabins,
     ];
     return(
         <>
